@@ -1,0 +1,1 @@
+find ./secondChance-backend -name app.js -exec ./node_modules/.bin/eslint -c .eslintrc.js {} +
