@@ -1,0 +1,1 @@
+theia@theia-soniamotel:/home/project/backend-nodejs-capstone$ gh run view 35260105047 --verbose ✓ main CI/CD · 35260105047 Triggered via push about 16 minutes ago JOBS ✓ Lint JavaScript Files in 20s (ID 105333405434) ✓ Set up job ✓ Checkout Repository ✓ Install Node.js ✓ Install and Run Linter ✓ Post Install Node.js ✓ Post Checkout Repository ✓ Complete job
