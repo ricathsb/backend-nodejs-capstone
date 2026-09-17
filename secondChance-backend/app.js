@@ -8,6 +8,7 @@ const connectToDatabase = require('./models/db');
 const {loadData} = require("./util/import-mongo/index");
 
 const app = express();
+app.use(express.static('public'));
 app.use("*", cors());
 const port = 3060;
 
