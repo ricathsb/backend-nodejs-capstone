@@ -8,7 +8,7 @@ router.get('/', async (req, res, next) => {
     const db = await connectToDatabase()
     const collection = db.collection(process.env.MONGO_COLLECTION)
 
-    let query = {}
+    const query = {}
 
     if (req.query.name && req.query.name.trim() !== '') {
       query.name = { $regex: req.query.name, $options: 'i' }
